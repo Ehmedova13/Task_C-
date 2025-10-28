@@ -1,0 +1,15 @@
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main(){
+const double pi=3.14;
+double r;
+cout<<"r daxil et:";
+cin>>r;
+double s=3.14*r*r;
+double l=2*3.14*r;
+cout<<"sahe:"<<s << "uzunluq:" <<l << endl;
+
+
+    return 0;
+}
