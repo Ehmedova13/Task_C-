@@ -1,0 +1,14 @@
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main(){
+int a;
+cout<< "a ni daxil edin:";
+cin>>a;
+int x=4*a;
+int y=a*a;
+cout<<"perimetr:"<< x<< "sahe:"<<y << endl;
+ 
+
+    return 0;
+}
