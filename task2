@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main(){
+    double a;
+    double b;
+    cout<<"iki eded daxil edin(noqte ile) : ";
+    cin>>a;
+    cin>>b;
+    
+    double cem = a+b;
+    double hasil = a*b;
+    double nisbet = a/b;
+    double ferq = a-b;
+    
+    cout<< "cem:"<< cem <<  endl;
+    cout<< "ferq:"<<ferq<< endl;
+    cout<< "hasil:"<<hasil<< endl;
+    cout<<"nisbet:"<<nisbet<< endl;
+
+
+    return 0;
+}
