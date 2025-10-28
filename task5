@@ -1,0 +1,22 @@
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main(){
+double cel,faranheit;
+char herf;
+cout<<" c daxil edib cel,f daxil edib faranhit";
+cin>>herf;
+if(herf=='c') {
+  cout<<"selsi daxil et:";
+    cin>>cel;
+   double y=(cel*9/5)+32;
+   cout<<"faranheit="<<y<<endl;}
+else if (herf=='f') {
+  cout<<"faranheit daxil et:";
+     cin>>faranheit;
+     double y=((faranheit-32)*5/9);
+     cout<<"cel="<<y<<endl;}
+else{
+    cout<<"yanlis herf";}
+return 0;
+
